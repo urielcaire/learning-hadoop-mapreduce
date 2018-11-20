@@ -24,6 +24,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import org.apache.hadoop.util.GenericOptionsParser;
 
+/***
+ * A MapReduce program to count occurrences of words in a file
+ */
 public class WordCount {
 
     public static void main(String [] args) throws Exception
