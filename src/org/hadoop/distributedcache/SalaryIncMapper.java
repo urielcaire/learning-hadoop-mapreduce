@@ -37,8 +37,10 @@ public class SalaryIncMapper extends Mapper<LongWritable, Text, Text, DoubleWrit
                     /* designation_code, increment_multiplier */
                     desg_map.put(data[0].trim(), Double.parseDouble(data[1].trim()));
                     record = br.readLine();
-                }		}
-        } 	}
+                }
+            }
+        }
+    }
 
     @Override
     // 607949MR,Allison,Developer,1414,4.4
