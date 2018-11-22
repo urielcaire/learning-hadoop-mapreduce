@@ -1,4 +1,4 @@
-package org.hadoop.joins.reducer;
+package org.hadoop.joins.reducer.inner;
 
 import java.io.IOException;
 
